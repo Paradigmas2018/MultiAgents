@@ -1,5 +1,11 @@
 # MultiAgents
 
+System developed based on the multi-agent paradigm. A bus network is developed. 
+
+Buses are agents which communicate people at the next stop that and its passengers that it is arriving, and kicking out passengers who are still in the bus after the route is complete. 
+
+People are also agents, communicating if they are getting into or off the bus, getting kicked off the bus trying to reach a bus stop which is not in the bus line's route or giving up on waiting a bus after waiting for too long
+
 Person is created by: namePerson:agents.PersonAgent(busLineNumber, currentBusStopCode, desiredBusStopCode)
 Bus is created by: nameBus:agents.BusAgent(busLineNumber, stopCode1, stopCode2, stopCode3, ...)
 
